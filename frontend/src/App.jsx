@@ -20,7 +20,6 @@ import MapplsAreaLens from "./features/MapplsAreaLens";
 
 import "./App.css";
 
-console.log("Mappls key:", import.meta.env.VITE_MAPPLS_KEY);
 
 function App() {
   const [form, setForm] = useState(DEFAULT_FORM);
